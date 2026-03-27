@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja"> <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tab URL Grabber Popup</title>
+  <style>
+    body { width: 250px; padding: 10px; font-family: sans-serif; }
+    .site-item { 
+      padding: 8px; margin: 4px 0; border: 1px solid #ddd; 
+      cursor: pointer; border-radius: 4px; transition: 0.2s;
+    }
+    .site-item:hover { background: #f0f0f0; border-color: #4285f4; }
+    h3 { font-size: 14px; margin-top: 0; }
+  </style>
+</head>
+<body>
+  <h3>コピーするサイトを選択</h3>
+  <div id="site-list"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
